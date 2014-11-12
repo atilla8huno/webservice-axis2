@@ -1,6 +1,7 @@
 *.classpath
 ws-axis2-client/.project
 ws-axis2-client/.settings/org.eclipse.jdt.core.prefs
+ws-axis2-client/bin/META-INF/NotaFiscalWS.wsdl
 ws-axis2-client/bin/XmlSchema-1.4.7.jar
 ws-axis2-client/bin/activation-1.1.jar
 ws-axis2-client/bin/antlr-2.7.7.jar
