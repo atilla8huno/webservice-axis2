@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="NotaFiscalWS" scope="application" targetNamespace="http://br.com.oobj/">
+	<description>
+		Nota Fiscal WS
+	</description>
+	<messageReceivers>
+		<messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-only"
+			class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />
+		<messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-out"
+			class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+	</messageReceivers>
+	<schema schemaNamespace="http://br.com.oobj/xsd"/>
+	<parameter name="ServiceClass">br.com.oobj.axis2.NotaFiscalWS</parameter>
+</service>
